@@ -1,35 +1,18 @@
-@font-face {
-  font-family: 'fakt';
-  src: url('../fonts/FaktPro-Normal.eot');
-  src: url('../fonts/FaktPro-Normal.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/FaktPro-Normal.woff') format('woff'),
-       url('../fonts/FaktPro-Normal.ttf')  format('truetype');
-       
-  font-style:   normal;
-  font-weight:  200;
-}
+/* ==========================================================================
+   DONATELY
+   ========================================================================== */
 
-@font-face {
-  font-family: 'fakt-condensed';
-  src: url('../fonts/FaktConPro-SemiBold.eot');
-  src: url('../fonts/FaktConPro-SemiBold.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/FaktConPro-SemiBold.woff') format('woff'),
-       url('../fonts/FaktConPro-SemiBold.ttf')  format('truetype');
-       
-  font-style:   normal;
-  font-weight:  700;
-}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-body {
-	font-family: 'fakt', arial, sans-serif;
-	background-color: black;
-}
-
-input {
-	border: 2px solid #000;
-	border-top-color: none;
-	border-left-color: none;
-	border-right-color: none;
-	box-shadow: none;
-	border-radius: none;
+.donately-btn.donately-submit {
+  border: none;
+  background-image: none;
+  background-color: #239BE0;
+  border-radius: 0px;
+  text-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2em;
+  padding: 12px 40px;
 }
