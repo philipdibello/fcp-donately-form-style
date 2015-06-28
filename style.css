@@ -1,18 +1,62 @@
-/* ==========================================================================
-   DONATELY
-   ========================================================================== */
+body {
+  font-family: 'fakt', arial, sans-serif;
+}
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+input {
+  border: 2px solid #000;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  box-shadow: transparent;
+  border-radius: 0px !important;
+}
 
-.donately-btn.donately-submit {
+.donately-secure-fields {
   border: none;
-  background-image: none;
-  background-color: #239BE0;
-  border-radius: 0px;
-  text-shadow: none;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: .2em;
-  padding: 12px 40px;
+  background-color: #fff;
+  margin: 0 0 0.7em;
+
+}
+
+.donately-secure-header {
+  background-color: #e8ebed;
+  color: #000;
+}
+
+.donately-secure-fields .donately-fields {
+  padding-left: 0;
+}
+
+input.donately-text-input {
+  border: 2px solid #000;
+}
+
+label.donately-label {
+  color: #C7C7C7;
+}
+
+.donately-btn {
+  font: 27px/30px 'fakt-condensed', "Arial Narrow", Arial, sans-serif;
+  letter-spacing: .03em;
+  background-color: #000 !important;
+    display: inline-block;
+    color: #fff;
+    padding: 20px 57px 18px;
+    vertical-align: top;
+    outline: none;
+    border: 4px solid #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.donately-btn:focus,
+.donately-btn:hover {
+  background-color: #fff !important;
+    border:4px solid #000;
+    color: #000;
+    cursor: pointer;
+    -moz-transition: all 150ms;
+  -o-transition: all 150ms;
+  -webkit-transition: all 150ms;
+  transition: all 150ms;
 }
